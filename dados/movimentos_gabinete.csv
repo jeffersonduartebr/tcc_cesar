@@ -1,0 +1,217 @@
+﻿quem_faz;nome;detalhamento;complemento;vazio;vazio;vazio;codigo
+Magistrado;Cooperação Judiciária;;;;15185
+Magistrado;Decisão;;;;3
+Magistrado;Decisão;Acolhimento de Embargos de Declaração;;;15162
+Magistrado;Decisão;Acolhimento de exceção;;;133
+Magistrado;Decisão;Acolhimento de exceção de pré-executividade;;;335
+Magistrado;Decisão;Acolhimento em Parte de Embargos de Declaração Impedimento ou Suspeição;;;940
+Magistrado;Decisão;Acolhimento em Parte de Embargos de Declaração;;;15163
+Magistrado;Decisão;Acolhimento em Parte de Exceção de Pré-Executividade;;;15366
+Magistrado;Decisão;Cancelamento da distribuição;;;83
+Magistrado;Decisão;Concessão;;;817
+Magistrado;Decisão;Concessão Antecipação de tutela;;;332
+Magistrado;Decisão;Concessão Gratuidade da Justiça;;;787
+Magistrado;Decisão;Concessão Liberdade provisória;;;818
+Magistrado;Decisão;Concessão Liminar;;;339
+Magistrado;Decisão;Concessão Substituição/Sucessão da Parte;;;12308
+Magistrado;Decisão;Concessão de efeito suspensivo;;;151
+Magistrado;Decisão;Concessão de efeito suspensivo Impugnação ao cumprimento de sentença;;;383
+Magistrado;Decisão;Concessão de efeito suspensivo Recurso;;;381
+Magistrado;Decisão;Concessão em parte;;;888
+Magistrado;Decisão;Concessão em parte Gratuidade da Justiça;;;15103
+Magistrado;Decisão;Concessão em parte Liminar;;;892
+Magistrado;Decisão;Conversão;;;7
+Magistrado;Decisão;Conversão Julgamento em Diligência;;;266
+Magistrado;Decisão;Conversão Pena / Medida;;;821
+Magistrado;Decisão;Decisão de Saneamento e Organização;;;12387
+Magistrado;Decisão;Decisão Interlocutória de Mérito;;;12185
+Magistrado;Decisão;Declaração;;;11
+Magistrado;Decisão;Declaração Impedimento;;;12150
+Magistrado;Decisão;Declaração Impedimento ou Suspeição;;;269
+Magistrado;Decisão;Declaração Incompetência;;;941
+Magistrado;Decisão;Declaração Suspeição;;;12151
+Magistrado;Decisão;Decretação de Prisão Civil;;;113
+Magistrado;Decisão;Decretação de Prisão Civil Depositário infiel;;;355
+Magistrado;Decisão;Decretação de revelia;;;12307
+Magistrado;Decisão;deferimento;;;12444
+Magistrado;Decisão;Deferimento em Parte;;;15086
+Magistrado;Decisão;Denegação de prevenção;;;12320
+Magistrado;Decisão;Determinação;;;1013
+Magistrado;Decisão;Determinação Arquivamento;;;12430
+Magistrado;Decisão;Determinação Bloqueio/penhora on line;;;11382
+Magistrado;Decisão;Determinação Determinação de arquivamento de procedimentos investigatórios;;;1063
+Magistrado;Decisão;Determinação Devolução dos autos à origem ;;;12472
+Magistrado;Decisão;Determinação Distribuição;;;12474
+Magistrado;Decisão;Determinação Emenda à Inicial;;;15085
+Magistrado;Decisão;Determinação Expedição de precatório/rpv;;;12457
+Magistrado;Decisão;Determinação Quebra de sigilo bancário;;;12038
+Magistrado;Decisão;Determinação Quebra de sigilo fiscal;;;12037
+Magistrado;Decisão;Determinação Quebra de sigilo telemático;;;12039
+Magistrado;Decisão;Determinação Redistribuição por prevenção;;;12255
+Magistrado;Decisão;Homologação;;;378
+Magistrado;Decisão;Homologação Desistência de Recurso;;;944
+Magistrado;Decisão;Homologação Prisão em flagrante;;;175
+Magistrado;Decisão;Homologação de Acordo Parcial em Execução ou em Cumprimento de Sentença;;;15244
+Magistrado;Decisão;Homologação em Parte;;;14776
+Magistrado;Decisão;Impugnação ao Cumprimento de Sentença;;;14231
+Magistrado;Decisão;Impugnação ao Cumprimento de Sentença Acolhimento;;;14232
+Magistrado;Decisão;Impugnação ao Cumprimento de Sentença Acolhimento em Parte;;;14234
+Magistrado;Decisão;Impugnação ao Cumprimento de Sentença Não-Acolhimento;;;14233
+Magistrado;Decisão;Impugnação ao Cumprimento de Sentença Rejeição;;;14235
+Magistrado;Decisão;Incidente ou Cautelar - Procedimento Resolvido;;;14702
+Magistrado;Decisão;Indeferimento;;;12455
+Magistrado;Decisão;Levantamento da Suspensão ou Dessobrestamento;;;12067
+Magistrado;Decisão;Liminar Prejudicada;;;12359
+Magistrado;Decisão;Não Acolhimento de Embargos de Declaração;;;15164
+Magistrado;Decisão;Não-Concessão;;;968
+Magistrado;Decisão;Não-Concessão Gratuidade da Justiça;;;334
+Magistrado;Decisão;Não-Concessão Liminar;;;792
+Magistrado;Decisão;Não-Homologação;;;12477
+Magistrado;Decisão;Não-Homologação de prisão em flagrante;;;146
+Magistrado;Decisão;Não-Recebimento;;;163
+Magistrado;Decisão;Não-Recebimento Recurso;;;804
+Magistrado;Decisão;Nomeação;;;12300
+Magistrado;Decisão;Nomeação Advogado Voluntário;;;12301
+Magistrado;Decisão;Nomeação Curador;;;12302
+Magistrado;Decisão;Nomeação Defensor Dativo;;;12303
+Magistrado;Decisão;Nomeação Intérprete/Tradutor;;;12304
+Magistrado;Decisão;Nomeação Outros auxiliares de justiça;;;12305
+Magistrado;Decisão;Nomeação Perito;;;12306
+Magistrado;Decisão;Ordenação de entrega de autos;;;63
+Magistrado;Decisão;Outras Decisões;;;12164
+Magistrado;Decisão;Prejudicado o Pedido;;;15223
+Magistrado;Decisão;Prorrogado prazo de conclusão;;;12332
+Magistrado;Decisão;Recebimento;;;160
+Magistrado;Decisão;Recebimento Aditamento da queixa;;;389
+Magistrado;Decisão;Recebimento Denúncia;;;391
+Magistrado;Decisão;Recebimento Emenda a inicial;;;12261
+Magistrado;Decisão;Recebimento Queixa;;;393
+Magistrado;Decisão;Recebimento Recurso;;;1060
+Magistrado;Decisão;Recebimento Com efeito suspensivo;;;394
+Magistrado;Decisão;Recebimento Sem efeito suspensivo;;;1059
+Magistrado;Decisão;Reforma de decisão anterior;;;190
+Magistrado;Decisão;Rejeição;;;138
+Magistrado;Decisão;Rejeição Aditamento da queixa;;;400
+Magistrado;Decisão;Rejeição Denúncia;;;402
+Magistrado;Decisão;Rejeição Exceção de Impedimento ou Suspeição;;;373
+Magistrado;Decisão;Rejeição Queixa;;;404
+Magistrado;Decisão;Requisição de informações;;;56
+Magistrado;Decisão;Revogação;;;157
+Magistrado;Decisão;Revogação Assistência Judiciária Gratuita;;;349
+Magistrado;Decisão;Revogação Decisão anterior;;;945
+Magistrado;Decisão;Revogação Liminar;;;348
+Magistrado;Decisão;Revogação Medida protetiva determinada por autoridade policial;;;12479
+Magistrado;Decisão;Revogação Revogação da Suspensão do Processo;;;11002
+Magistrado;Decisão;Suscitação de Conflito de Competência;;;961
+Magistrado;Decisão;Suspensão ou Sobrestamento;;;25
+Magistrado;Decisão;Suspensão ou Sobrestamento A depender do julgamento de outra causa, de outro juízo ou declaração incidente;;;272
+Magistrado;Decisão;Suspensão ou Sobrestamento Conflito de Competência;;;960
+Magistrado;Decisão;Suspensão ou Sobrestamento Convenção das Partes;;;270
+Magistrado;Decisão;Suspensão ou Sobrestamento Convenção das Partes para Satisfação Voluntária da Obrigação em Execução ou Cumprimento de Sentença;;;277
+Magistrado;Decisão;Suspensão ou Sobrestamento Exceção de Incompetência, suspeição ou Impedimento;;;271
+Magistrado;Decisão;Suspensão ou Sobrestamento Execução frustrada;;;276
+Magistrado;Decisão;Suspensão ou Sobrestamento Força maior;;;275
+Magistrado;Decisão;Suspensão ou Sobrestamento Incidente de Insanidade Mental;;;279
+Magistrado;Decisão;Suspensão ou Sobrestamento Incidente de Resolução de Demandas Repetitivas ;;;12098
+Magistrado;Decisão;Suspensão ou Sobrestamento Morte ou perda da capacidade;;;268
+Magistrado;Decisão;Suspensão ou Sobrestamento Por Ação de Controle Concentrado de Constitucionalidade;;;14971
+Magistrado;Decisão;Suspensão ou Sobrestamento Por Controvérsia;;;14970
+Magistrado;Decisão;Suspensão ou Sobrestamento Por decisão do Presidente do STF - SIRDR;;;12100
+Magistrado;Decisão;Suspensão ou Sobrestamento Por decisão judicial;;;898
+Magistrado;Decisão;Suspensão ou Sobrestamento Por Expedição de Precatório;;;15247
+Magistrado;Decisão;Suspensão ou Sobrestamento Por Expedição de RPV;;;15248
+Magistrado;Decisão;Suspensão ou Sobrestamento Por Grupo de Representativos;;;14969
+Magistrado;Decisão;Suspensão ou Sobrestamento Por Incidente de Assunção de Competência - IAC;;;14968
+Magistrado;Decisão;Suspensão ou Sobrestamento Recebimento de Embargos à Execução;;;278
+Magistrado;Decisão;Suspensão ou Sobrestamento Suspensão Condicional do Processo;;;264
+Magistrado;Despacho;Despacho proferido;;;11009
+Magistrado;Despacho;Concessão;;;11023
+Magistrado;Despacho;Concessão Assistência Judiciária Gratuita;;;11024
+Magistrado;Despacho;Conversão;;;11021
+Magistrado;Despacho;Conversão Julgamento em Diligência;;;11022
+Magistrado;Despacho;Determinação de Citação;;;15216
+Magistrado;Despacho;Levantamento da Suspensão ou Dessobrestamento;;;12068
+Magistrado;Despacho;Mero expediente;;;11010
+Magistrado;Despacho;Ordenação de entrega de autos;;;11019
+Magistrado;Despacho;Pauta; ;;12310
+Magistrado;Despacho;Pauta Pedido de inclusão;Pedido de inclusão;;12311
+Magistrado;Despacho;Pauta Pedido de inclusão em pauta virtual;Pedido de inclusão em pauta virtual;;12313
+Magistrado;Despacho;Pauta Retirar pedido de inclusão;Retirar pedido de inclusão;;12312
+Magistrado;Despacho;Pauta Retirar pedido de pauta virtual;Retirar pedido de pauta virtual;;12314
+Magistrado;Despacho;Requisição de Informações;;;11020
+Magistrado;Despacho;Suspensão ou Sobrestamento; ;;11025
+Magistrado;Despacho;Suspensão ou Sobrestamento Conflito de Competência;Conflito de Competência;;11012
+Magistrado;Despacho;Suspensão ou Sobrestamento Convenção das Partes;Convenção das Partes;;11013
+Magistrado;Despacho;Suspensão ou Sobrestamento Convenção das Partes para Cumprimento Voluntário da obrigação;Convenção das Partes para Cumprimento Voluntário da obrigação;;11014
+Magistrado;Despacho;Suspensão ou Sobrestamento Exceção de Incompetência, suspeição ou Impedimento;Exceção de Incompetência, suspeição ou Impedimento;;11015
+Magistrado;Despacho;Suspensão ou Sobrestamento Homologação de Acordo ou Transação;Homologação de Acordo ou Transação;;15238
+Magistrado;Despacho;Suspensão ou Sobrestamento Incidente de Insanidade Mental;Incidente de Insanidade Mental;;11017
+Magistrado;Despacho;Suspensão ou Sobrestamento Por Impedimento ou Suspeição;Por Impedimento ou Suspeição;;15009
+Magistrado;Despacho;Suspensão ou Sobrestamento Recebimento de Embargos à Execução;Recebimento de Embargos à Execução;;11018
+Magistrado;Julgamento;;;;193
+Magistrado;Julgamento;Com Resolução do Mérito; ;;385
+Magistrado;Julgamento;Com Resolução do Mérito Acolhimento de Embargos de Declaração ;Acolhimento de Embargos de Declaração;;198
+Magistrado;Julgamento;Com Resolução do Mérito Acolhimento em parte de Embargos de Declaração ;Acolhimento em parte de Embargos de Declaração;;871
+Magistrado;Julgamento;Com Resolução do Mérito Consulta ;Consulta;;12326
+Magistrado;Julgamento;Com Resolução do Mérito  Respondida;;Respondida;12327
+Magistrado;Julgamento;Com Resolução do Mérito  Respondida em parte;;Respondida em parte;12328
+Magistrado;Julgamento;Com Resolução do Mérito Declaração de competência em conflito ;Declaração de competência em conflito;;900
+Magistrado;Julgamento;Com Resolução do Mérito Extinção da execução ou do cumprimento da sentença ;Extinção da execução ou do cumprimento da sentença;;196
+Magistrado;Julgamento;Com Resolução do Mérito Extinção da Punibilidade ou da Pena ;Extinção da Punibilidade ou da Pena;;973
+Magistrado;Julgamento;Com Resolução do Mérito  Cumprimento da suspensão condicional do processo;;Cumprimento da suspensão condicional do processo;11411
+Magistrado;Julgamento;Com Resolução do Mérito  Morte do agente;;Morte do agente;1042
+Magistrado;Julgamento;Com Resolução do Mérito  Perdão judicial;;Perdão judicial;1048
+Magistrado;Julgamento;Com Resolução do Mérito  Prescrição, decadência ou perempção;;Prescrição, decadência ou perempção;1045
+Magistrado;Julgamento;Com Resolução do Mérito  Renúncia do queixoso ou perdão aceito ;;Renúncia do queixoso ou perdão aceito ;1046
+Magistrado;Julgamento;Com Resolução do Mérito  Retratação do agente;;Retratação do agente;1047
+Magistrado;Julgamento;Com Resolução do Mérito  Retroatividade de lei;;Retroatividade de lei;1044
+Magistrado;Julgamento;Com Resolução do Mérito Homologação de Acordo em Execução ou em Cumprimento de Sentença ;Homologação de Acordo em Execução ou em Cumprimento de Sentença;;14099
+Magistrado;Julgamento;Com Resolução do Mérito Homologação de Transação ;Homologação de Transação;;466
+Magistrado;Julgamento;Com Resolução do Mérito Improcedência ;Improcedência;;220
+Magistrado;Julgamento;Com Resolução do Mérito Improcedência do pedido e improcedência do pedido contraposto ;Improcedência do pedido e improcedência do pedido contraposto;;11409
+Magistrado;Julgamento;Com Resolução do Mérito Improcedência do pedido e procedência do pedido contraposto ;Improcedência do pedido e procedência do pedido contraposto;;11407
+Magistrado;Julgamento;Com Resolução do Mérito Improcedência do pedido e procedência em parte do pedido contraposto ;Improcedência do pedido e procedência em parte do pedido contraposto;;11408
+Magistrado;Julgamento;Com Resolução do Mérito impugnação à execução ;impugnação à execução;;12450
+Magistrado;Julgamento;Com Resolução do Mérito  improcedência;;improcedência;12453
+Magistrado;Julgamento;Com Resolução do Mérito  Procedência;;Procedência;12451
+Magistrado;Julgamento;Com Resolução do Mérito  procedência parcial;;procedência parcial;12452
+Magistrado;Julgamento;Com Resolução do Mérito Não-Acolhimento de Embargos de Declaração ;Não-Acolhimento de Embargos de Declaração;;200
+Magistrado;Julgamento;Com Resolução do Mérito Pedido conhecido em parte e improcedente ;Pedido conhecido em parte e improcedente;;12331
+Magistrado;Julgamento;Com Resolução do Mérito Pedido conhecido em parte e procedente ;Pedido conhecido em parte e procedente;;12329
+Magistrado;Julgamento;Com Resolução do Mérito Pedido conhecido em parte e procedente em parte ;Pedido conhecido em parte e procedente em parte;;12330
+Magistrado;Julgamento;Com Resolução do Mérito Procedência ;Procedência;;219
+Magistrado;Julgamento;Com Resolução do Mérito Procedência do Pedido - Reconhecimento pelo réu ;Procedência do Pedido - Reconhecimento pelo réu;;11795
+Magistrado;Julgamento;Com Resolução do Mérito Procedência do pedido e improcedência do pedido contraposto ;Procedência do pedido e improcedência do pedido contraposto;;11403
+Magistrado;Julgamento;Com Resolução do Mérito Procedência do pedido e procedência do pedido contraposto ;Procedência do pedido e procedência do pedido contraposto;;11401
+Magistrado;Julgamento;Com Resolução do Mérito Procedência do pedido e procedência em parte do pedido contraposto ;Procedência do pedido e procedência em parte do pedido contraposto;;11402
+Magistrado;Julgamento;Com Resolução do Mérito Procedência em Parte ;Procedência em Parte;;221
+Magistrado;Julgamento;Com Resolução do Mérito Procedência em parte do pedido e improcedência do pedido contraposto ;Procedência em parte do pedido e improcedência do pedido contraposto;;11406
+Magistrado;Julgamento;Com Resolução do Mérito Procedência em parte do pedido e procedência do pedido contraposto ;Procedência em parte do pedido e procedência do pedido contraposto;;11404
+Magistrado;Julgamento;Com Resolução do Mérito Pronúncia de Decadência ou Prescrição ;Pronúncia de Decadência ou Prescrição;;471
+Magistrado;Julgamento;Com Resolução do Mérito Renúncia ao direito pelo autor ;Renúncia ao direito pelo autor;;455
+Magistrado;Julgamento;Com Resolução do Mérito Transação Penal ;Transação Penal;;884
+Magistrado;Julgamento;Sem Resolução de Mérito;;;218
+Magistrado;Julgamento;Sem Resolução de Mérito Anulação de sentença/acórdão;;;11373
+Magistrado;Julgamento;Sem Resolução de Mérito Extinção;;;456
+Magistrado;Julgamento;Sem Resolução de Mérito;;Abandono da causa;458
+Magistrado;Julgamento;Sem Resolução de Mérito Ação intransmissível; ;Ação intransmissível;464
+Magistrado;Julgamento;Sem Resolução de Mérito Ausência das condições da ação; ;Ausência das condições da ação;461
+Magistrado;Julgamento;Sem Resolução de Mérito Ausência de citação de sucessores do réu falecido; ;Ausência de citação de sucessores do réu falecido;11381
+Magistrado;Julgamento;Sem Resolução de Mérito Ausência de pressupostos processuais; ;Ausência de pressupostos processuais;459
+Magistrado;Julgamento;Sem Resolução de Mérito Ausência de Requerimento Administrativo Prévio; ;Ausência de Requerimento Administrativo Prévio;14848
+Magistrado;Julgamento;Sem Resolução de Mérito Ausência do autor à audiência; ;Ausência do autor à audiência;11376
+Magistrado;Julgamento;Sem Resolução de Mérito Autor falecido e sem habilitação de sucessores; ;Autor falecido e sem habilitação de sucessores;11380
+Magistrado;Julgamento;Sem Resolução de Mérito Cancelamento de Dívida Ativa; ;Cancelamento de Dívida Ativa;12298
+Magistrado;Julgamento;Sem Resolução de Mérito Convenção de arbitragem; ;Convenção de arbitragem;462
+Magistrado;Julgamento;Sem Resolução de Mérito Desistência; ;Desistência;463
+Magistrado;Julgamento;Sem Resolução de Mérito Devedor não encontrado; ;Devedor não encontrado;11374
+Magistrado;Julgamento;Sem Resolução de Mérito Inadmissibilidade do procedimento sumaríssimo; ;Inadmissibilidade do procedimento sumaríssimo;11377
+Magistrado;Julgamento;Sem Resolução de Mérito Incompetência em razão da pessoa; ;Incompetência em razão da pessoa;11379
+Magistrado;Julgamento;Sem Resolução de Mérito Incompetência territorial; ;Incompetência territorial;11378
+Magistrado;Julgamento;Sem Resolução de Mérito Indeferimento da petição inicial; ;Indeferimento da petição inicial;454
+Magistrado;Julgamento;Sem Resolução de Mérito Inexistência de bens penhoráveis; ;Inexistência de bens penhoráveis;11375
+Magistrado;Julgamento;Sem Resolução de Mérito Paralisação por negligência das partes; ;Paralisação por negligência das partes;457
+Magistrado;Julgamento;Sem Resolução de Mérito Perda do objeto; ;Perda do objeto;12325
+Magistrado;Julgamento;Sem Resolução de Mérito Perempção, litispendência ou coisa julgada; ;Perempção, litispendência ou coisa julgada;460
+Magistrado;Julgamento;Sem Resolução de Mérito Renúncia; ;Renúncia;12617
+Magistrado;Julgamento;Sem Resolução de Mérito;Prejudicado;;12459
