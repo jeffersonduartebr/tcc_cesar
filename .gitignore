@@ -1,2 +1,4 @@
 #dados/*TJRN*.csv
+*TRF*.csv
+!dados/processados/*.csv
 *generico*
