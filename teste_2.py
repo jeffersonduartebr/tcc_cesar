@@ -91,7 +91,7 @@ def lista_para_dataframe(dados_dict):
   #print(df.head(1))  
   return df
 
-df_tjrn = pd.DataFrame()
+df_tribunal = pd.DataFrame()
 url = "https://api-publica.datajud.cnj.jus.br/api_publica_tjrn/_search"
 api_key = "APIKey cDZHYzlZa0JadVREZDJCendQbXY6SkJlTzNjLV9TRENyQk1RdnFKZGRQdw==" # Chave pública
 tribunal = 'TJRN'
@@ -121,7 +121,7 @@ headers = {
 
 response = requests.request("POST", url, headers=headers, data=payload)  # <Response [200]>
 dados_dict = response.json() # <class 'dict'>
-df_tjrn = lista_para_dataframe(dados_dict)
+df_tribunal = lista_para_dataframe(dados_dict)
 numero_processos = size
 
 while numero_processos == size:
@@ -158,11 +158,11 @@ while numero_processos == size:
     dados_dict = response.json() # <class 'dict'>
     numero_processos = len(dados_dict['hits']['hits'])
     ultima_posicao_dicionario = dados_dict['hits']['hits'][(len(dados_dict['hits']['hits'])-1)]['sort']
-    df_tjrn = pd.concat([df_tjrn, lista_para_dataframe(dados_dict)])
-    #print(df_tjrn.head(2))
-    df_tjrn = df_tjrn[df_tjrn['orgao_julgador'] == orgaoJulgador]
-    print(df_tjrn.head(1))
-    tamanho_dataset = len(df_tjrn.index)
+    df_tribunal = pd.concat([df_tribunal, lista_para_dataframe(dados_dict)])
+    #print(df_tribunal.head(2))
+    df_tribunal = df_tribunal[df_tribunal['orgao_julgador'] == orgaoJulgador]
+    print(df_tribunal.head(1))
+    tamanho_dataset = len(df_tribunal.index)
     ultima_data_ajuizamento = dados_dict['hits']['hits'][len(dados_dict['hits']['hits'])-1]['_source']['dataAjuizamento']
     print(f'{datetime.datetime.now()}\t Serventia: {orgaoJulgador}\tNúmero de processos: {tamanho_dataset} \t Data do último processo adicionado: {ultima_data_ajuizamento}' )
     #if tamanho_dataset > 2000000:
@@ -172,4 +172,4 @@ try:
     print(f'Número de processos incorporados: {tamanho_dataset} da Serventia: {orgaoJulgador}')
 except:
     print(f'Última página do dicionário veio vazia: {orgaoJulgador}')
-print(df_tjrn.head(1))
+print(df_tribunal.head(1))

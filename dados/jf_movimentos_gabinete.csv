@@ -1,0 +1,225 @@
+﻿quem_faz;tipo;codigo;Movimento
+magistrado;Cooperação Judiciária;15185;em cooperação judiciária
+magistrado;Decisão;3;Decisão ou Despacho
+magistrado;Decisão;15162;Embargos de declaração acolhidos
+magistrado;Decisão;133;Decisão ou Despacho Acolhimento de exceção
+magistrado;Decisão;335;Acolhida a exceção de pré-executividade
+magistrado;Decisão;940;Acolhida a exceção de Impedimento ou Suspeição
+magistrado;Decisão;371;Acolhida a exceção de Incompetência
+magistrado;Decisão;15163;Embargos de declaração acolhidos em parte
+magistrado;Decisão;15366;Acolhida em parte a exceção de pré-executividade
+magistrado;Decisão;83;Determinado o cancelamento da distribuição
+magistrado;Decisão;817;Concessão
+magistrado;Decisão;12149;Detração/remição concedida
+magistrado;Decisão;787;Concedida a gratuidade da justiça a  
+magistrado;Decisão;11554;Concedido o indulto a  
+magistrado;Decisão;818;Concedida a Liberdade provisória de  
+magistrado;Decisão;339;Concedida a Medida Liminar
+magistrado;Decisão;819;Concedido o Livramento condicional
+magistrado;Decisão;14682;Concedida Medida Cautelar Diversa da Prisão de #{tipo_de_medida_cautelar_diversa_da_prisao}
+magistrado;Decisão;12148;Concedida a prisão domiciliar a  
+magistrado;Decisão;12308;Concedida a substituição/sucessão de parte
+magistrado;Decisão;151;Decisão ou Despacho Concessão de efeito suspensivo
+magistrado;Decisão;383;Decisão ou Despacho Concessão de efeito suspensivo Impugnação ao cumprimento de sentença
+magistrado;Decisão;381;Concedido efeito suspensivo a Recurso
+magistrado;Decisão;888;Decisão ou Despacho Concessão em parte
+magistrado;Decisão;15103;Gratuidade da justiça concedida em parte a  
+magistrado;Decisão;892;Concedida em parte a Medida Liminar
+magistrado;Decisão;7;Convertido(a) o(a)
+magistrado;Decisão;266;Convertido(a) o(a) Julgamento em Diligência
+magistrado;Decisão;821;Convertido(a) o(a) Pena / Medida
+magistrado;Decisão;12140;Convertida a prisão em flagrante em prisão preventiva
+magistrado;Decisão;12387;Decisão de Saneamento e de Organização do Processo
+magistrado;Decisão;12185;Decisão Interlocutória de Mérito
+magistrado;Decisão;11;Decisão ou Despacho Declaração
+magistrado;Decisão;12150;Declarado impedimento por #{nome_do_magistrado}
+magistrado;Decisão;269;Declarado impedimento ou suspeição
+magistrado;Decisão;941;Declarada incompetência
+magistrado;Decisão;12151;Declarada suspeição por #{nome_do_magistrado}
+magistrado;Decisão;113;Decisão ou Despacho Decretação de Prisão Civil
+magistrado;Decisão;355;Decretada a prisão de depositário infiel  
+magistrado;Decisão;12307;Decretada a revelia
+magistrado;Decisão;12444;Deferido o pedido de  
+magistrado;Decisão;15086;Deferido em parte o pedido de  
+magistrado;Decisão;122;Decisão ou Despacho Desacolhimento de Prisão
+magistrado;Decisão;12147;Desacolhida a prisão domiciliar de  
+magistrado;Decisão;1013;Decisão Determinação
+magistrado;Decisão;11382;Determinado o bloqueio/penhora on line
+magistrado;Decisão;1063;Determinado o Arquivamento
+magistrado;Decisão;15085;Determinada a emenda à inicial
+magistrado;Decisão;12457;Determinada expedição de Precatório/RPV
+magistrado;Decisão;12038;Determinada a quebra do sigilo bancário
+magistrado;Decisão;12037;Determinada a quebra do sigilo fiscal
+magistrado;Decisão;12039;Determinada a quebra do sigilo telemático
+magistrado;Decisão;12255;Determinação de redistribuição por prevenção
+magistrado;Decisão;378;Decisão ou Despacho Homologação
+magistrado;Decisão;944;Homologada a Desistência do Recurso
+magistrado;Decisão;12733;Homologado o Acordo de Não Persecução Penal de  
+magistrado;Decisão;175;Homologada a Prisão em Flagrante
+magistrado;Decisão;15244;Homologado o acordo parcial em execução ou em cumprimento de sentença
+magistrado;Decisão;14776;Decisão ou Despacho de Homologação
+magistrado;Decisão;14231;Impugnação ao Cumprimento de Sentença
+magistrado;Decisão;14232;Acolhida a impugnação ao cumprimento de sentença
+magistrado;Decisão;14234;Acolhida em parte a impugnação ao cumprimento de sentença
+magistrado;Decisão;14233;Não acolhida a impugnação ao cumprimento de sentença
+magistrado;Decisão;14235;Rejeitada a impugnação ao cumprimento de sentença
+magistrado;Decisão;14702;Resolvido o procedimento incidente ou cautelar
+magistrado;Decisão;12455;Indeferido o pedido de  
+magistrado;Decisão;12067;Determinado o levantamento da suspensão ou do sobrestamento dos autos
+magistrado;Decisão;15164;Embargos de declaração não acolhidos
+magistrado;Decisão;968;Decisão ou Despacho Não-Concessão
+magistrado;Decisão;334;Gratuidade da justiça não concedida a  
+magistrado;Decisão;12146;Não concedida a liberdade provisória de  
+magistrado;Decisão;792;Não Concedida a Medida Liminar
+magistrado;Decisão;12477;Decisão ou despacho de não homologação
+magistrado;Decisão;146;Prisão em flagrante não homologada
+magistrado;Decisão;163;Decisão ou Despacho Não-Recebimento
+magistrado;Decisão;804;Não recebido o recurso de  
+magistrado;Decisão;12300;Nomeado(a)
+magistrado;Decisão;12301;Nomeado advogado voluntário
+magistrado;Decisão;12302;Nomeado curador
+magistrado;Decisão;12303;Nomeado defensor dativo
+magistrado;Decisão;12304;Nomeado intérprete/tradutor
+magistrado;Decisão;12305;Nomeado outro auxiliar da justiça
+magistrado;Decisão;12306;Nomeado perito
+magistrado;Decisão;63;Ordenada a entrega dos autos à parte
+magistrado;Decisão;12164;Proferidas outras decisões não especificadas
+magistrado;Decisão;15223;Prejudicado o pedido de  
+magistrado;Decisão;12299;Prorrogado o cumprimento de pena/medida de segurança
+magistrado;Decisão;160;Decisão ou Despacho Recebimento
+magistrado;Decisão;388;Recebido aditamento à denúncia contra  
+magistrado;Decisão;389;Recebido aditamento à queixa contra  
+magistrado;Decisão;391;Recebida a denúncia contra  
+magistrado;Decisão;12261;Recebida a emenda à inicial
+magistrado;Decisão;393;Recebida a queixa contra  
+magistrado;Decisão;1060;Recebido o recurso
+magistrado;Decisão;394;Recebido o recurso Com efeito suspensivo
+magistrado;Decisão;1059;Recebido o recurso Sem efeito suspensivo
+magistrado;Decisão;138;Decisão ou Despacho Rejeição
+magistrado;Decisão;399;Rejeitado o aditamento à denúncia
+magistrado;Decisão;400;Rejeitado o aditamento à queixa
+magistrado;Decisão;402;Rejeitada a denúncia
+magistrado;Decisão;373;Rejeitada exceção de impedimento ou de suspeição
+magistrado;Decisão;374;Rejeitada a exceção de incompetência
+magistrado;Decisão;404;Rejeitada a queixa
+magistrado;Decisão;12141;Relaxado o flagrante
+magistrado;Decisão;56;Decisão Requisita Informações
+magistrado;Decisão;157;Decisão ou Despacho Revogação
+magistrado;Decisão;349;Revogada a Assistência Judiciária Gratuita
+magistrado;Decisão;945;Revogada decisão anterior #{tipo_da_decisao_anterior} datada de #{data}
+magistrado;Decisão;12145;Detração/remissão revogada
+magistrado;Decisão;348;Revogada a Medida Liminar
+magistrado;Decisão;14683;Revogada a Medida Cautela Diversa da Prisão de #{tipo_de_medida_cautelar_diversa_da_prisao}
+magistrado;Decisão;128;Revogada a Prisão
+magistrado;Decisão;12737;Revogada a Suspensão Condicional do Processo
+magistrado;Decisão;11002;Revogada a suspensão do processo
+magistrado;Decisão;15025;Revogada a transação penal
+magistrado;Decisão;12734;Revogado o acordo de não persecução penal de  
+magistrado;Decisão;961;Suscitado Conflito de Competência
+magistrado;Decisão;25;Processo Suspenso ou Sobrestado por
+magistrado;Decisão;272;Processo suspenso por depender do julgamento de outra causa, de outro juízo ou declaração incidente em #{numero_unico_do_processo}
+magistrado;Decisão;960;Processo Suspenso ou Sobrestado por Conflito de Competência
+magistrado;Decisão;270;Processo Suspenso por Convenção das Partes
+magistrado;Decisão;277;Processo Suspenso ou Sobrestado por Convenção das Partes para Satisfação Voluntária da Obrigação em Execução ou Cumprimento de Sentença
+magistrado;Decisão;271;Processo Suspenso por Exceção de Incompetência, suspeição ou Impedimento
+magistrado;Decisão;276;Processo Suspenso por Execução Frustrada
+magistrado;Decisão;275;Processo Suspenso ou Sobrestado por Força maior
+magistrado;Decisão;279;Processo Suspenso ou Sobrestado por Incidente de Insanidade Mental
+magistrado;Decisão;12098;Processo Suspenso por Incidente de Resolução de Demandas Repetitivas #{numero_tema_IRDR}
+magistrado;Decisão;268;Processo Suspenso por Morte ou perda da capacidade
+magistrado;Decisão;14971;Processo suspenso ou sobrestado por ação de controle concentrado de constitucionalidade do tipo #{classe_acao_controle_constitucionalidade_STF} de número #{numero_classe_acao_controle_constitucionalidade_STF}
+magistrado;Decisão;14970;Processo suspenso ou sobrestado por controvérsia de número #{numero_controversia}
+magistrado;Decisão;12100;Suspensão por Decisão do Presidente do STF em razão da SIRDR número #{numero_da_SIRDR}
+magistrado;Decisão;898;Processo Suspenso ou Sobrestado por Por decisão judicial
+magistrado;Decisão;15247;Processo suspenso em razão de expedição de precatório
+magistrado;Decisão;15248;Processo suspenso em razão da expedição de RPV
+magistrado;Decisão;14969;Processo suspenso ou sobrestado por grupo de representativos do #{sigla_tribunal} de número #{numero_grupo_de_representativos}
+magistrado;Decisão;14968;Processo suspenso ou sobrestado por Incidente de Assunção de Competência do #{sigla_tribunal} de tema número #{numero _tema_IAC}
+magistrado;Decisão;11975;Processo suspenso por Recurso Especial Repetitivo #{numero_tema_repetitivo}
+magistrado;Decisão;265;Processo Suspenso por Recurso Extraordinário com repercussão geral #{numero_tema_RG}
+magistrado;Decisão;263;Processo Suspenso por Réu revel citado por edital  
+magistrado;Decisão;264;Suspensão Condicional do Processo
+magistrado;Decisão;12736;Unificado o Processo de Execução ao processo #{numero_do_processo}
+magistrado;Decisão;12144;Unificadas e somadas as penas
+magistrado;Despacho;11009;Proferido despacho
+magistrado;Despacho;11023;#REF!
+magistrado;Despacho;11024;Concedida a Assistência Judiciária Gratuita a parte
+magistrado;Despacho;11021;#REF!
+magistrado;Despacho;11022;Convertido(a) o(a) Julgamento em Diligência
+magistrado;Despacho;15216;Determinada a citação de  
+magistrado;Despacho;12548;Expedido alvará de levantamento
+magistrado;Despacho;12068;Determinado o levantamento da suspensão ou do sobrestamento dos autos
+magistrado;Despacho;11010;Proferido despacho de mero expediente
+magistrado;Despacho;11019;Ordenada a entrega dos autos à parte
+magistrado;Despacho;12310;Pauta
+magistrado;Despacho;12311;Pedido de inclusão em pauta
+magistrado;Despacho;12313;Pedido de inclusão em pauta virtual
+magistrado;Despacho;12312;Retirado pedido de inclusão em pauta
+magistrado;Despacho;12314;Retirado pedido de pauta virtual
+magistrado;Despacho;11020;Determinada Requisição de Informações
+magistrado;Despacho;11025;Determinada a suspensão ou sobrestamento dos autos
+magistrado;Despacho;11012;Processo Suspenso ou Sobrestado por Conflito de Competência
+magistrado;Despacho;11013;Processo Suspenso por Convenção das Partes
+magistrado;Despacho;11014;Processo Suspenso por Convenção das Partes para Cumprimento Voluntário da obrigação
+magistrado;Despacho;11015;Processo Suspenso por Exceção de Incompetência, suspeição ou Impedimento
+magistrado;Despacho;15238;Suspenso o processo por homologação de acordo ou transação
+magistrado;Despacho;11017;Processo Suspenso ou Sobrestado por Incidente de Insanidade Mental
+magistrado;Despacho;15009;Processo suspenso por impedimento ou suspeição de número #{numero_unico_do_processo}
+magistrado;Julgamento;193;Julgamento
+magistrado;Julgamento;385;Julgamento com Resolução de Mérito
+magistrado;Julgamento;11876;Absolvido sumariamente o réu - art. 397 do CPP
+magistrado;Julgamento;198;Embargos de Declaração Acolhidos
+magistrado;Julgamento;871;Embargos de Declaração Acolhidos em Parte
+magistrado;Julgamento;12615;Realizada a Composição Civil
+magistrado;Julgamento;900;Julgado o conflito de competência
+magistrado;Julgamento;12258;Emitido Juízo de retratação pelo colegiado
+magistrado;Julgamento;196;Extinta a execução ou o cumprimento da sentença
+magistrado;Julgamento;973;Extinta a Punibilidade por
+magistrado;Julgamento;11411;Extinta a punibilidade por cumprimento da suspensão condicional do processo
+magistrado;Julgamento;12735;Extinta a Punibilidade de   em Razão de Cumprimento de Acordo de Não Persecução Penal
+magistrado;Julgamento;12028;Extinta a punibilidade por cumprimento da transação penal de  
+magistrado;Julgamento;11879;Extinta a punibilidade por decadência ou perempção
+magistrado;Julgamento;1042;Extinta a Punibilidade por morte do agente
+magistrado;Julgamento;1048;Extinta a Punibilidade por perdão judicial
+magistrado;Julgamento;11878;Extinta a punibilidade por prescrição
+magistrado;Julgamento;1045;Extinta a Punibilidade por prescrição, decadência ou perempção
+magistrado;Julgamento;1046;Extinta a Punibilidade por renúncia do queixoso ou perdão aceito
+magistrado;Julgamento;1047;Extinta a Punibilidade por retratação do agente
+magistrado;Julgamento;1044;Extinta a Punibilidade por retroatividade de lei
+magistrado;Julgamento;14099;Homologado o Acordo em Execução ou em Cumprimento de Sentença
+magistrado;Julgamento;12187;Homologada a decisão do juiz leigo
+magistrado;Julgamento;466;Homologada a Transação
+magistrado;Julgamento;12738;Homologada a Transação Penal
+magistrado;Julgamento;220;Julgado improcedente o pedido
+magistrado;Julgamento;200;Embargos de Declaração Não-acolhidos
+magistrado;Julgamento;219;Julgado procedente o pedido
+magistrado;Julgamento;11795;Julgado procedente o pedido - reconhecimento pelo réu
+magistrado;Julgamento;221;Julgado procedente em parte o pedido
+magistrado;Julgamento;471;Declarada decadência ou prescrição
+magistrado;Julgamento;455;Homologada renúncia pelo autor
+magistrado;Julgamento;12254;Sentença desconstituída
+magistrado;Julgamento;884;Realizada Transação Penal
+magistrado;Julgamento;218;Julgamento Sem Resolução de Mérito
+magistrado;Julgamento;11373;Anulada a(o) sentença/acórdão
+magistrado;Julgamento;456;Extinto o processo sem resolução do mérito por
+magistrado;Julgamento;458;Extinto o processo por abandono da causa pelo autor
+magistrado;Julgamento;464;Extinto o processo por ser a ação intransmissível
+magistrado;Julgamento;461;Extinto o processo por ausência das condições da ação
+magistrado;Julgamento;11381;Extinto o processo por ausência de citação de sucessores do réu falecido
+magistrado;Julgamento;459;Extinto o processo por ausência de pressupostos processuais
+magistrado;Julgamento;14848;Extinção por ausência de requerimento administrativo prévio
+magistrado;Julgamento;11376;Extinto o processo por ausência do autor à audiência
+magistrado;Julgamento;11380;Extinto o processo por falecimento do autor sem habilitação de sucessores
+magistrado;Julgamento;12298;Extinto o processo pelo cancelamento da dívida ativa
+magistrado;Julgamento;12256;Extinto o processo sem resolução de mérito por continência
+magistrado;Julgamento;462;Extinto o processo por convenção de arbitragem
+magistrado;Julgamento;463;Extinto o processo por desistência
+magistrado;Julgamento;11374;Extinto o processo por devedor não encontrado
+magistrado;Julgamento;11377;Extinto o processo por inadmissibilidade do procedimento sumaríssimo
+magistrado;Julgamento;11379;Extinto o processo por incompetência em razão da pessoa
+magistrado;Julgamento;11378;Extinto o processo por incompetência territorial
+magistrado;Julgamento;454;Indeferida a petição inicial
+magistrado;Julgamento;11375;Extinto o processo por inexistência de bens penhoráveis
+magistrado;Julgamento;457;Extinto o processo por negligência das partes
+magistrado;Julgamento;460;Extinto o processo por Perempção, litispendência ou coisa julgada
+magistrado;Julgamento;12184;Determinada a suspensão condicional do processo
