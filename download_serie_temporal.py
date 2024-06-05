@@ -19,15 +19,14 @@ def lista_para_dataframe(dados_dict):
   processos = []
   for processo in dados_dict['hits']['hits']:
     tribunal = processo['_source']['tribunal']
-    numero_processo = processo['_source']['numeroProcesso']
     grau = processo['_source']['grau']
     classe = processo['_source']['classe']['codigo']
     data_ajuizamento = processo['_source']['dataAjuizamento']
     codigo = processo['_source']['orgaoJulgador']['codigo']
 
-    processos.append([numero_processo, tribunal, classe, data_ajuizamento, codigo, grau])
+    processos.append([tribunal, classe, data_ajuizamento, codigo, grau])
 
-  df = pd.DataFrame(processos, columns=['numero_processo', 'tribunal','classe_codigo', 'data_ajuizamento', 'codigo_orgaoJulgador', 'grau'])
+  df = pd.DataFrame(processos, columns=['tribunal','classe_codigo', 'data_ajuizamento', 'codigo_orgaoJulgador', 'grau'])
   #df['data_ajuizamento'] = df['data_ajuizamento'].swifter.apply(converte_data)
   df['data_ajuizamento'] = df['data_ajuizamento'].swifter.apply(dateutil.parser.parse)
   df['data_ajuizamento'] = df['data_ajuizamento'].swifter.apply(datetime.datetime.date)
@@ -107,11 +106,11 @@ while numero_processos == size:
     #if tamanho_dataset > 2000000:
     #  break
 
-df_tribunal.to_csv('dados/processados/serie_temporal_ajuizamento-TJMG_2018.csv', header=True, sep=';')
+df_tribunal.to_csv('dados/processados/serie_temporal_ajuizamento-TJMG_2018.csv', header=True, sep=';', compression='zip')
 df_g1 = df_tribunal[df_tribunal['grau'] == 'G1'] 
-df_g1.to_csv('dados/processados/serie_temporal_ajuizamento-TJMG_G1_2018.csv', header=True, sep=';')
+df_g1.to_csv('dados/processados/serie_temporal_ajuizamento-TJMG_G1_2018.csv', header=True, sep=';', compression='zip')
 df_g2 = df_tribunal[df_tribunal['grau'] == 'G2'] 
-df_g2.to_csv('dados/processados/serie_temporal_ajuizamento-TJMG_G2_2018.csv', header=True, sep=';')
+df_g2.to_csv('dados/processados/serie_temporal_ajuizamento-TJMG_G2_2018.csv', header=True, sep=';', compression='zip')
 df_je = df_tribunal[df_tribunal['grau'] == 'JE'] 
-df_je.to_csv('dados/processados/serie_temporal_ajuizamento-TJMG_JE_2018.csv', header=True, sep=';')
+df_je.to_csv('dados/processados/serie_temporal_ajuizamento-TJMG_JE_2018.csv', header=True, sep=';', compression='zip')
 print(df_tribunal.head(1))
