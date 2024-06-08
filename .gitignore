@@ -2,3 +2,5 @@
 *TRF*.csv
 !dados/processados/*.csv
 *generico*
+*.ckpt
+*_logs
