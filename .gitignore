@@ -4,4 +4,5 @@
 *generico*
 *.ckpt
 *_logs
+**_logs**
 *.sql
