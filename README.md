@@ -59,10 +59,11 @@ Para alcançar os objetivos propostos, as seguintes ferramentas e bibliotecas fo
 - [**Numpy**](https://numpy.org/doc/): Suporte para arrays e operações matemáticas de alto desempenho.
 - [**Scikit-Learn**](https://scikit-learn.org/): Algoritmos de aprendizado de máquina.
 - [**Dash**](https://dash.plotly.com/): Geração de gráficos e dashboards
-- [**ARIMA**](https://scholar.google.com/citations?user=D9XeX9cAAAAJ&hl=pt-BR): Modelagem e previsão de séries temporais.
-- [**N-Beats**](https://scholar.google.com/citations?user=D9XeX9cAAAAJ&hl=pt-BR): Modelagem baseada em deep learning para previsões de séries temporais.
+- [**ARIMA**](https://phdinds-aim.github.io/time_series_handbook/01_AutoRegressiveIntegratedMovingAverage/01_AutoRegressiveIntegratedMovingAverage.html): Modelagem e previsão de séries temporais.
+- [**N-Beats**](https://arxiv.org/abs/1905.10437): Modelagem baseada em deep learning para previsões de séries temporais.
 - [**Prophet**](https://facebook.github.io/prophet/): Ferramenta de previsão de séries temporais desenvolvida pelo Facebook.
 - [**NeuralProphet**](https://neuralprophet.com/): Extensão do Prophet com melhorias baseadas em deep learning.
+- [**MariaDB**](https://mariadb.org/): Sistema de Gerenciamento de Banco de Dados relacional.
 
 ## Autor
 
