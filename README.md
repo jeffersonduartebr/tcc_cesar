@@ -51,8 +51,6 @@ A inspeção regulamentada pelo Tribunal de Justiça do Rio Grande do Norte (TJR
 - **Verificação de Conformidade**: Garantia de que todas as atividades judiciais estão em conformidade com as normas e regulamentos estabelecidos pelo TJRN.
 - **Relatórios Detalhados**: Elaboração de relatórios que destacam as áreas que precisam de melhorias e as práticas recomendadas para otimização dos processos.
 
-A ferramenta desenvolvida por Jefferson Igor Duarte Silva é projetada para integrar-se a este processo, fornecendo previsões e análises que ajudam a Corregedoria a realizar inspeções mais eficazes e baseadas em dados concretos.
-
 ## Ferramentas Adotadas
 
 Para alcançar os objetivos propostos, as seguintes ferramentas e bibliotecas foram utilizadas:
@@ -71,5 +69,7 @@ Para alcançar os objetivos propostos, as seguintes ferramentas e bibliotecas fo
 **Jefferson Igor Duarte Silva**
 
 Jefferson Igor Duarte Silva é o autor desta ferramenta inovadora, desenvolvida para atender às necessidades do Judiciário Estadual, promovendo eficiência e melhor gestão dos processos judiciais.
+
 [Linkedin](https://www.linkedin.com/in/jeffersonigorbr/)
+
 [Google Scholar](https://scholar.google.com/citations?user=D9XeX9cAAAAJ&hl=pt-BR)
