@@ -6,3 +6,4 @@
 *_logs
 **_logs**
 *.sql
+*.gz

@@ -60,6 +60,7 @@ Para alcançar os objetivos propostos, as seguintes ferramentas e bibliotecas fo
 - [**Scikit-Learn**](https://scikit-learn.org/): Algoritmos de aprendizado de máquina.
 - [**Dash**](https://dash.plotly.com/): Geração de gráficos e dashboards
 - [**ARIMA**](https://phdinds-aim.github.io/time_series_handbook/01_AutoRegressiveIntegratedMovingAverage/01_AutoRegressiveIntegratedMovingAverage.html): Modelagem e previsão de séries temporais.
+- [**DeepAR**](https://arxiv.org/abs/1704.04110): Modelo de Séries temporais desenvolvido pela Amazon
 - [**N-Beats**](https://arxiv.org/abs/1905.10437): Modelagem baseada em deep learning para previsões de séries temporais.
 - [**Prophet**](https://facebook.github.io/prophet/): Ferramenta de previsão de séries temporais desenvolvida pelo Facebook.
 - [**NeuralProphet**](https://neuralprophet.com/): Extensão do Prophet com melhorias baseadas em deep learning.
