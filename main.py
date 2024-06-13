@@ -15,9 +15,12 @@ import numpy as np
 from neuralprophet import NeuralProphet
 
 from cachetools import cached, TTLCache
+import time
+
+time.sleep(45)
 
 try:
-    mydb = mariadb.connect(host="mariadb", database = 'dados_tribunais',user="root", passwd="abc@123")
+    mydb = mariadb.connect(host="bd", database = 'dados_tribunais',user="root", passwd="abc@123")
     query = "select data_ajuizamento, orgao_julgador, data_sentenca from processos where tribunal='TJRN' and grau='JE';"
     df_tribunal = pd.read_sql(query,mydb)
     mydb.close() #close the connection
