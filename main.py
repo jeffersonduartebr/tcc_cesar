@@ -12,7 +12,6 @@ import dateutil
 import datetime
 import pandas as pd
 import numpy as np
-from neuralprophet import NeuralProphet
 
 from cachetools import cached, TTLCache
 import time
