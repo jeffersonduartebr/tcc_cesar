@@ -16,7 +16,7 @@ import numpy as np
 from cachetools import cached, TTLCache
 import time
 
-time.sleep(45)
+time.sleep(120)
 
 try:
     mydb = mariadb.connect(host="bd", database = 'dados_tribunais',user="root", passwd="abc@123")
