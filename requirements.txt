@@ -124,7 +124,6 @@ pluggy
 pmdarima 
 prometheus_client 
 prompt-toolkit 
-prophet 
 protobuf 
 psutil 
 ptyprocess 

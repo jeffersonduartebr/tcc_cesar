@@ -159,5 +159,5 @@ def update_graph(selected_jurisdiction, chart_type, start_date, end_date):
     return fig
 
 if __name__ == '__main__':
-    app.run_server(debug=True, port='8080', host='0.0.0.0')
+    app.run_server(debug=True, port='8050', host='0.0.0.0')
     
