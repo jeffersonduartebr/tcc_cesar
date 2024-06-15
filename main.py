@@ -15,7 +15,7 @@ import numpy as np
 
 from cachetools import cached, TTLCache
 import time
-import dataset
+from dataset import criar_dataset, conectar_banco
 #time.sleep(15)
 
 try:
@@ -27,8 +27,6 @@ except Exception as e:
     mydb.close()
     print(str(e))
 
-cursor = conectar_banco()
-criar_dataset(cursor, 'tjce', data, 10000)    
 
 unidades_jurisdicionais = df_tribunal['orgao_julgador'].unique()
 data_ddf = dd.from_pandas(df_tribunal, npartitions=6)
@@ -93,10 +91,11 @@ app.layout = html.Div([
     Output('output-metodo', 'children'),
     [Input('input-tribunal', 'value')]
 )
-def chamar_metodo(nome_tribunal):
+def download_dados_tribunais(nome_tribunal):
     if nome_tribunal:
-        resultado = meu_metodo(nome_tribunal)
-        return resultado
+        cursor = conectar_banco()
+        criar_dataset(cursor, nome_tribunal, '2024-01-01', 1000) 
+        
     else:
         return "Digite um nome de tribunal válido."
 
