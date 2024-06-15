@@ -103,7 +103,6 @@ nbconvert
 nbformat 
 nest-asyncio 
 networkx 
-notebook_shim 
 numpy 
 olefile 
 openpyxl 
@@ -121,8 +120,6 @@ pillow
 platformdirs 
 plotly 
 pluggy 
-pmdarima 
-prometheus_client 
 prompt-toolkit 
 protobuf 
 psutil 
@@ -148,8 +145,6 @@ ray
 reactivex 
 referencing 
 requests 
-rfc3339-validator 
-rfc3986-validator 
 rich 
 rpds-py 
 scikit-learn 
@@ -171,16 +166,13 @@ swifter
 sympy 
 tblib 
 tenacity 
-tensorboard 
-tensorboard-data-server 
 terminado 
 threadpoolctl 
 tinycss2 
 toml 
 tomli 
 toolz 
-tornado 
-tqdm 
+tornado  
 traitlets 
 triton 
 typer 
@@ -202,5 +194,4 @@ Werkzeug
 widgetsnbextension 
 xyzservices 
 yarl 
-zict 
-zipp
+zict
