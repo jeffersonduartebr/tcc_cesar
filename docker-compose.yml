@@ -1,0 +1,77 @@
+services:
+  dashapp:
+    container_name: dashapp
+    hostname: dashapp
+    build:
+      dockerfile: Dockerfile  # Se você tiver um Dockerfile para sua aplicação Dash
+    ports:
+      - "8050:8050"  # Porta para acessar sua aplicação Dash
+    environment:
+      DATABASE_HOST: bd
+      DATABASE_PORT: 3306
+      DATABASE_USER: root
+      DATABASE_PASSWORD: abc@123
+      DATABASE_NAME: dados_tribunais
+    volumes:
+      - ./tcc_cesar:/app/tcc_cesar
+    depends_on:
+      - bd
+    links:
+      - bd
+    networks:
+      - localnet
+    command: python3 ./main.py        
+
+  bd:
+    build:
+      dockerfile: Dockerfile_mariadb
+    container_name: bd
+    hostname: bd
+    restart: always
+    healthcheck:
+      interval: 60s
+      retries: 15
+      test:
+        [
+          "CMD",
+          "healthcheck.sh",
+          "--su-mysql",
+          "--connect",
+          "--innodb_initialized"
+        ]
+      timeout: 30s
+    environment:
+      MYSQL_ROOT_PASSWORD: abc@123
+      MYSQL_DATABASE: dados_tribunais
+      MYSQL_PASSWORD: abc@123
+    volumes:
+      - mariadb-data:/var/lib/mariadb
+      - ./backup/:/docker-entrypoint-initdb.d
+    ports:
+      - "3306:3306"
+    networks:
+      - localnet
+      
+  proxy:
+    image: nginx
+    container_name: proxy
+    hostname: proxy    
+    build:
+      dockerfile: Dockerfile_nginx    
+    ports:
+      - "80:80"
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+    depends_on:
+      - dashapp
+    networks:
+      - default
+      - localnet      
+
+volumes:
+  mariadb-data:
+  
+networks:
+  localnet:
+    external: false
+
