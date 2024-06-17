@@ -1,7 +1,7 @@
 import requests
 import json
-import datetime, dateutil
-from datetime import datetime
+import datetime
+import dateutil
 import concurrent.futures
 import swifter
 import os
@@ -77,7 +77,7 @@ def adicionar_processo_mariadb(cursor, numero_processo, tribunal, classe, data_a
         
         
     except mariadb.Error as e:
-        print(f"Error adding entry to database: {e}")
+        print(f"Erro na adição do processo: {tribunal}:  {e}")
 
 
 def converte_data(data_str):
@@ -124,8 +124,6 @@ def gera_lista_movimentos_multithread(movimentos):
     return lst_movimentos_final
 
 def obter_data(item):
-  #print(item.split(',')[2])
-  #print(datetime.strptime(item[2], '%Y-%m-%d'))
   return datetime.strptime(item[2], '%Y-%m-%d')
 
 def carregar_movimentacoes(tribunal):
@@ -133,7 +131,7 @@ def carregar_movimentacoes(tribunal):
     if tribunal[:2] == 'TJ':
         movimentacoes_gabinete = pd.read_csv('dados/movimentos_gabinete.csv', sep=';', header='infer')
         movimentacoes_gabinete['codigo'] = movimentacoes_gabinete['vazio.1']
-        lista_movimentacoes_gabinete = movimentacoes_gabinete['Código'].to_list()
+        lista_movimentacoes_gabinete = movimentacoes_gabinete['codigo'].to_list()
         movimentacoes_secretaria = pd.read_csv('dados/movimentos_secretaria.csv', sep=';', header='infer')
         lista_movimentacoes_secretaria = movimentacoes_secretaria['codigo'].to_list()
     else:
@@ -143,10 +141,10 @@ def carregar_movimentacoes(tribunal):
         lista_movimentacoes_secretaria = movimentacoes_secretaria['codigo'].to_list()
 
     lista_movimentacoes_gabinete_set = set(lista_movimentacoes_gabinete)
-    return lista_movimentacoes_gabinete_set, lista_movimentacoes_secretaria
+    return lista_movimentacoes_gabinete_set
   
 def calcular_data_sentenca(tribunal, movimentacao):
-    lista_movimentacoes_gabinete_set, _ = carregar_movimentacoes(tribunal)
+    lista_movimentacoes_gabinete_set = carregar_movimentacoes(tribunal)
     padrao_movimentacao = r'\[(\d+),\s+\'(.*?)\',\s+\'(\d{4}-\d{2}-\d{2})\'\]'
     resultado = re.findall(padrao_movimentacao, movimentacao)
     if resultado:
@@ -165,14 +163,15 @@ def calcular_tempo_entre_movimentacoes(movimentacoes, inicial, final):
     resultado = re.findall(padrao_movimentacao, movimentacoes)
     try:
         if len(resultado) >= 2 and len(resultado) > final:
-            data_1 = datetime.strptime(resultado.pop(inicial)[2], '%Y-%m-%d')
-            data_2 = datetime.strptime(resultado.pop(inicial)[2], '%Y-%m-%d')
-                       
-            return abs((data_1 - data_2).days)
+            #print()
+            data_1 = datetime.datetime.strptime(resultado.pop(inicial)[2], '%Y-%m-%d')
+            data_2 = datetime.datetime.strptime(resultado.pop(inicial)[2], '%Y-%m-%d')
+            diferenca = data_2 - data_1
+            return abs(diferenca.days)
         else:
             return -1
     except:
-        print(f'erro: {len(resultado)}, {resultado}')
+        print(f'erro: {len(resultado)}, {inicial}:{final},  {resultado}')
     return -1
   
 def lista_para_dataframe(conector, dados_dict):
@@ -234,7 +233,7 @@ def criar_dataset(conector, tribunal, data, tamanho_consulta):
         "must": [
             {"match": {"tribunal": tribunal}},
             {"match": {"grau": 'JE'}},
-            {"range": {"dataAjuizamento": {"gte": data }}}
+            {"range": {"dataAjuizamento": {"gte": data }}},
         ]
       }
   },
